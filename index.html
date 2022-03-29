@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="одноразовая посуда, посуда, пластик, стаканы, тарелки, столовые приборы, все для пикника, скотч, креплента, малярная лента, перчатки, бахилы, хозяйственные товары, ветошь, упаковка, фасовка, пакеты, майки, крафт, упаковка для подарков, пленка пищевая, стрейч-пленка, бахилы, шапочки для душа, емкость для расфасовки, контейнера, соусницы, ланч-боксы, судки, лотки">
+    <meta name="description" content="Магазин по продаже одноразовой посуды в Омске">
+    <link rel="shortcut icon" href="images\logo 1.ico">
+    <link href="css\style.css" rel="stylesheet" type="text/css" />
+    <link href="css\PodTov.css" rel="stylesheet" type="text/css" />
+    <link href="css\form.css" rel="stylesheet" type="text/css" />
+    <link href="css\navigation.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>OdnorazPosyda</title>
+  </head>
+  <body>
+
+    <div id="temno"></div>
+
+      <div id="Shapka">
+          <img id="PCircle"  src="Images/PCircles.svg">
+          <img id="Logo" src="images\LOGOGO.svg">
+          <img id="Points" src="Images/CPoints.svg">
+          <img id="DW" src="images\doctorWhite.svg">
+          <img id="Clines" src="Images/CLines.svg">
+          <a href="#ToShop"><img id="BuyButt" src="Images/BuyButt.svg"></a>
+          <img id="IW" src="images\nearLogo.svg">
+
+
+        <div id="BlueFTextWI">
+          <button type="button" onclick="vidKor()" id="KorB"><img id="KZ" src="images\korzinaV.svg"></button>
+          <div id="hiddenkor">
+            <img id="KH" src="images\messageKorZina.svg">
+          </div>
+
+          <button type="button" onclick="vidContr()" id="KorC"><img id="Cell" src="images\cellphone.svg"></button>
+          <div id="hiddenphone">
+            <img id="CH" src="images\messagecont.svg">
+          </div>
+
+
+          <p id="MainText">Приветствуем Вас!</p>
+
+          <p id="text">Мы занимаемся продажей и доставкой одноразовой посуды по всему городу Омску, здесь вы можете оставить заявку для нашего менеджера, который созвонится с Вами в ближайшее время и обсудит дальнейшие детали плодотворного сотрудничества.
+          </p>
+        </div>
+
+
+
+      </div>
+
+      <div id="AboutUs">
+        <p id="textAbout">Мы на рынке с 2000 года и предоставляем своим оптовым покупателям скидки, также при заказе от 1500 рублей доставка в любую точку города бесплатно, время доставки обговорить можно с менеджером. Удачных покупок!
+        </p>
+        <img id="Flag" src="Images/Flag.svg">
+        <img id="DStar" src="Images/DStarF.svg">
+        <img id="Star" src="Images/StarF.svg">
+        <img id="PCircle2" src="Images/PCircle2.svg">
+        <img id="Clines2" src="Images/CLines2.svg">
+      </div>
+
+      <div class="Knop">
+
+      </div>
+
+
+     
+
+    <div class="Goods_Out">
+      <a id="ToShop"></a>
+    </div>
+    <div class="navig">
+      <button type="button" id="left" onclick="Pleft()"> <img src="images\Left.svg"> </button>
+      <div class="pages">
+
+      </div>
+      <button type="button" id="right" onclick="Pright()"> <img src="images\Right.svg"> </button>
+    </div>
+
+    <div id="search">
+      <input type="text" id="TXTF" value="">
+   </div>
+    <button type="button" id="BTF" onclick="Find('TXTF')"> <img src="images\Lupa.svg"> </button>
+
+    <div id="Warning">
+      <img id="CRLines" src="Images/CRLines.svg">
+      <p id="W1">Обратите внимание, не все из представленных товаров могут оказаться в наличие</p>
+      <p id="W2">После заполнения заявки наши операторы с вами свяжутся</p>
+      <img id="Triangle" src="Images/Triangle.svg">
+      <img id="DD" src="Images/DD.svg">
+      <img id="D" src="Images/D.svg">
+      <img id="DCircle" src="Images/DCircle.svg">
+      <img id="Circle" src="Images/Circle.svg">
+      <img id="PDCircle" src="Images/PDCircle.svg">
+    </div>
+
+    <div id="bot">
+      <img src="images\botim.svg" id="pon">
+    </div>
+
+    <div id="niz">
+      <p id="Im">ИП Садиков А. М.</p>
+    </div>
+    
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

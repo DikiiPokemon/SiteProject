@@ -1,0 +1,126 @@
+#right{
+  border: none;
+  outline: none;
+  position: absolute;
+  left: 906px;
+  top: 2068px;
+  background-color: #FFFFFF
+}
+
+#left{
+  border: none;
+  outline: none;
+  position: absolute;
+  left: 445px;
+  top: 2068px;
+  background-color: #FFFFFF
+}
+
+.pages{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 30px;
+
+  position: absolute;
+  height: 42px;
+  left: 505px;
+  top: 2062px;
+
+  border: 3px solid #6DA6F7;
+  box-sizing: border-box;
+  border-radius: 18px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 30px;
+}
+
+.pageB{
+border: none;
+outline: none;
+padding: 0px 25px;
+
+position: static;
+width: 20px;
+height: 29px;
+top: 6.5px;
+left: 30px;
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+
+color: #6DA6F7;
+background-color: #FFFFFF;
+
+}
+
+.pageBF{
+  border: none;
+  outline: none;
+  padding: 0px 30px;
+
+  position: static;
+  width: 20px;
+  height: 29px;
+  top: 6.5px;
+  left: 30px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 29px;
+
+  color: #6DA6F7;
+  background-color: #FFFFFF;
+  text-decoration: underline;
+}
+
+#search{
+  position: absolute;
+  width: 924px;
+  height: 56px;
+  left: 447px;
+  top: 1189px;
+
+  background: #FFFFFF;
+  border: 3px solid #6DA6F7;
+  box-sizing: border-box;
+  border-radius: 100px;
+
+}
+
+#TXTF{
+   text-align: center;
+  border: none;
+  outline: none;
+  position: absolute;
+  width: 880px;
+  height: 29px;
+  left: 30px;
+  top: 6.5px;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  background: #FFFFFF;
+  color: #6DA6F7;
+}
+
+#BTF{
+  border: none;
+  outline: none;
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  left: 1401px;
+  top: 1189px;
+  background: #FFFFFF;
+  padding: 0;
+}

@@ -1,0 +1,333 @@
+.Goods_Out{
+  justify-content: center;
+  position: absolute;
+  width: 1918px;
+  height: 1586px;
+  left: 0px;
+  top: 1129px;
+  padding:  0px 30px 200px 156px;
+  background: #FFFFFF;
+  box-shadow: 0px 11px 21px rgba(62, 100, 154, 0.25), 0px -11px 21px rgba(62, 100, 154, 0.25);
+
+}
+
+#KTov{
+  position: static;
+  width: 194px;
+  height: 194px;
+  left: 23.5px;
+  top: 20.5px;
+
+  background: url(Checker.png);
+  border: 3px solid #6DA6F7;
+  box-sizing: border-box;
+  border-radius: 11px;
+
+
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 10px 0px;
+}
+
+#Naz{
+  position: static;
+  width: 94px;
+  height: 15px;
+  left: 0px;
+  top: 0px;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 15px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #6DA6F7;
+
+
+
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+.TextTov{
+
+
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: static;
+width: 194px;
+height: 45px;
+
+background: #FFFFFF;
+
+/* Inside Auto Layout */
+
+
+margin: 10px 0px;
+
+
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #6DA6F7;
+}
+
+#Pic{
+  position: static;
+width: 194px;
+height: 194px;
+left: 23.5px;
+top: 30.5px;
+
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.Cen{
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  padding: 0px;
+
+  position: static;
+  width: 132px;
+  height: 18px;
+  left: 54.5px;
+  top: 289.5px;
+
+  background: #FFFFFF;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 10px 41.5px;
+/* Inside Auto Layout */
+
+
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: left;
+
+color: #6DA6F7;
+
+
+}
+
+.pokypisha{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: static;
+width: 209px;
+height: 28px;
+
+
+background: #FFFFFF;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
+margin: 20px 0px;
+}
+
+#mines{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+
+position: static;
+width: 28px;
+height: 28px;
+
+
+background: #6DA6F7;
+border-radius: 7px;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin-right:  6px;
+}
+
+#plus{
+
+padding: 5px;
+
+position: static;
+width: 28px;
+height: 28px;
+left: 181px;
+top: 0px;
+
+background: #6DA6F7;
+border-radius: 7px;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+margin-left:  6px;
+}
+
+.collichestvo{
+  position: static;
+  width: 135px;
+  height: 22px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+
+  color: #000000;
+
+
+  background: #FFFFFF;
+  border-radius: 9px;/* Inside Auto Layout */
+  border: 3px solid #6DA6F7;
+  margin-bottom:  0px;
+}
+
+.plusik{
+  border: none;
+  outline: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+
+  position: static;
+  width: 28px;
+  height: 28px;
+  left: 181px;
+  top: 0px;
+
+  background: white;
+  border-radius: 7px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 0px 6px;
+}
+
+.minusik{
+border: none;
+outline: none;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 5px;
+
+position: static;
+width: 28px;
+height: 28px;
+left: 0px;
+top: 0px;
+
+background: white;
+border-radius: 7px;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 6px;
+}
+
+.consti{
+  display: none;
+}
+
+.zakaz{
+  border: none;
+  outline: none;
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+
+position: static;
+width: 27px;
+height: 18px;
+left: 105px;
+top: 0px;
+
+background: #FFFFFF;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 78px;
+}
+
+.Tov{
+
+justify-content: center;
+float:left;
+width: 241px;
+height: 376px;
+margin: 15px;
+padding: 16px;
+border: 3px solid #6DA6F7;
+border-radius: 11px;
+background: #FFFFFF;
+text-align:center;
+box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+box-sizing: border-box;
+
+}
