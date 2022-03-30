@@ -13,6 +13,13 @@ function Init() {
   )
 }
 
+$(function(){
+	$('#scroll_bottom').click(function(){
+		$('html, body').animate({scrollTop: 1129}, 600);
+		return false;
+	});
+});
+
 function GoodsOut(data) {
     data = JSON.parse(data);
     //tovriki = data.length;
