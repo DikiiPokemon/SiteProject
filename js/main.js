@@ -133,9 +133,9 @@ function vidKor(){
   if (localStorage.getItem("cart")) {
     if(!isEmpty(cart)){
       out += `<div id = "Zina">`;
-      out += `<button class = "krst"><img id = "krest" src = "images\\krestik.svg"></button>`;
+      out += `<button class = "krst"><img id = "krest" src = "Images\\krestik.svg"></button>`;
       out += `<p id = "Pust">Ваша корзина пуста</p>`;
-      out += `<img src = "images\\PustKor.svg" id = "KorPust">`;
+      out += `<img src = "Images\\PustKor.svg" id = "KorPust">`;
       out += `</div>`;
     }else{
       cart = JSON.parse(localStorage.getItem('cart'));
@@ -150,9 +150,9 @@ function vidKor(){
       // )
   }else{
     out += `<div id = "Zina">`;
-    out += `<button class = "krst"><img id = "krest" src = "images\\krestik.svg"></button>`;
+    out += `<button class = "krst"><img id = "krest" src = "Images\\krestik.svg"></button>`;
     out += `<p id = "Pust">Ваша корзина пуста</p>`;
-    out += `<img src = "images\\PustKor.svg" id = "KorPust">`;
+    out += `<img src = "Images\\PustKor.svg" id = "KorPust">`;
     out += `</div>`;
   }
 
@@ -165,7 +165,7 @@ function ShowCart(data) {
   data = JSON.parse(data);
   var out = "";
   out += `<div id = "Zina">`;
-  out += `<button class = "krst"><img id = "krest" src = "images\\krestik.svg"></button>`;
+  out += `<button class = "krst"><img id = "krest" src = "Images\\krestik.svg"></button>`;
   out += `<div id = "PP">`;
   for(var key in data){
 
@@ -218,7 +218,7 @@ function Send(data) {
   out += `<form name="Zaika" class="Zaiavka" action="core/mail.php" method="post" target="_blank" id="pk">`;
   out += `<input readonly type = "number" name = "sum" class = "itog" value = "${itog}"/>`;
   //out += `<div class = "itog">${itog}</div>`;
-  out += `<button class = "krst"> <img src="images\\krestik.svg"> </button>`;
+  out += `<button class = "krst"> <img src="Images\\krestik.svg"> </button>`;
   out += `<textarea id="txt" name="tz" placeholder="Оставьте пожалуйста контакты как с вами связаться и наши сотрудники обязательно ответят" required="required"></textarea>`;
   out += `<button class="Putin" type="submit" name="sub">Отправить заявку </button>`;
   out += `</form>`;
@@ -252,9 +252,9 @@ function SendOtherInf(data){
 function ShowLastThing(){
   var out = "";
   out += `<div id = "Zina">`;
-  out += `<button class = "krst"> <img src="images\\krestik.svg"> </button>`;
+  out += `<button class = "krst"> <img src="Images\\krestik.svg"> </button>`;
   out += `<p id = "Pust">Заявка отправлена</p>`;
-  out += `<img src = "images\\PustKor.svg" id = "KorPust">`;
+  out += `<img src = "Images\\PustKor.svg" id = "KorPust">`;
   out += `</div>`;
   $('.Knop').html(out);
   $('.krst').on('click', CloseCart);
@@ -263,7 +263,7 @@ function ShowLastThing(){
 function vidContr(){
   var out = "";
   out += `<div id="Contr">`;
-  out += `<button class="krst"><img id = "krest" src="images\\krestik.svg"></button>`;
+  out += `<button class="krst"><img id = "krest" src="Images\\krestik.svg"></button>`;
   out += `<div id="Serova">`;
   out += `<p>Адрес: Серова, д.28</p>`;
   out += `<p>Телефон: 45-35-80</p>`;
