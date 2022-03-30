@@ -103,14 +103,14 @@ background-color: #FFFFFF;
 }
 
 #TXTF{
-   text-align: center;
+  text-align: center;
   border: none;
   outline: none;
   position: absolute;
-  width: 880px;
+  width: 850px;
   height: 29px;
   left: 30px;
-  top: 6.5px;
+  top: 10.5px;
 
   font-family: 'Gilroy';
   font-style: normal;
@@ -119,6 +119,7 @@ background-color: #FFFFFF;
   line-height: 29px;
   background: #FFFFFF;
   color: #6DA6F7;
+  padding: 0;
 }
 
 #BTF{
