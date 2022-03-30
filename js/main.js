@@ -15,7 +15,7 @@ function Init() {
 
 $(function(){
 	$('#scroll_bottom').click(function(){
-		$('html, body').animate({scrollTop: 1129}, 600);
+		$('html, body').scrollTop(1129);
 		return false;
 	});
 });
