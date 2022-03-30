@@ -1,3 +1,11 @@
+@font-face {
+	font-family:'Gilroy'; 
+  src: local('Gilroy'),
+	url(fonts/Gilroy-Bold.ttf) format('ttf'),
+  url(fonts/Gilroy-Bold.woff) format('woff'),
+  url(fonts/Gilroy-Bold.woff2) format('woff2'); 
+}
+
 #right{
   border: none;
   outline: none;
@@ -104,7 +112,7 @@ background-color: #FFFFFF;
   left: 30px;
   top: 6.5px;
 
-  font-family: Proxima Nova;
+  font-family: 'Gilroy';
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
