@@ -302,7 +302,7 @@ filter: drop-shadow(3px 12px 13px rgba(0, 0, 0, 0.25));
 
   position: absolute;
   width: 600px;
-  height: 650px;
+  height: 600px;
 
 
 
@@ -786,8 +786,8 @@ color: #FFFFFF;
 .Knop{
 position: absolute;
 width: 600px;
-height: 650px;
-top: 396px;
+height: 600px;
+top: 125px;
 left: 652px;
 }
 
